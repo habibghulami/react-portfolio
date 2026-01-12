@@ -10,7 +10,7 @@ function App() {
 	return (
 		<section className="bg-slate-900 w-full min-h-screen ">
 			<div className=" max-w-7xl mx-auto relative ">
-				<div className="fixed left-0 top-1/2 w-32 h-40 hidden lg:flex ustify-center items-center flex-col -translate-x-[80px]">
+				<div className="fixed left-0 top-[40%] w-32 h-40 hidden lg:flex ustify-center items-center flex-col -translate-x-[80px] z-50">
 					<div className="flex justify-between items-center px-3 bg-blue-700 text-white font-bold font-nano w-full h-full hover:translate-x-[80px] transition-all duration-500 cursor-pointer">
 						<span>Linkedin</span>
 						<Linkedin />
